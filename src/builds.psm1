@@ -48,7 +48,7 @@ function Get-VSTeamBuild {
       [string] $ResultFilter,
 
       [Parameter(ParameterSetName = 'List')]
-      [ValidateSet('manual', 'individualCI', 'batchedCI', 'schedule', 'userCreated', 'validateShelveset', 'checkInShelveset', 'triggered', 'all')]
+      [ValidateSet('manual','individualCI','batchedCI','schedule','userCreated','validateShelveset','checkInShelveset','triggered','buildCompletion','pullRequest','all')]
       [string] $ReasonFilter,
 
       [Parameter(ParameterSetName = 'List')]
